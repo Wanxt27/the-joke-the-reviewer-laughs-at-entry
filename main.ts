@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const JOKE =
-  "My AI agent wrote a function so elegant, so clean, so well-documented \u2014 it solved a problem we never had, in a file we were about to delete.";
+  "My AI agent doesn't write bugs \u2014 it writes features I didn't ask for, in files I didn't know existed, that all pass tests I didn't write.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 // Entry contract: the joke must be a single line of 1-280 code points.
